@@ -1,7 +1,12 @@
 # stkBoard
-minimal synth keyboard using STK/SDL2. Cannot even play two notes at once.
+minimal synth keyboard using STK/SDL2.
+
+Cannot even play two notes at once.
+
 Also not tuned at all.
 
-Needed/Credit:
+### Needed/Credit:
+
 [STK](https://ccrma.stanford.edu/software/stk/index.html)
+
 [SDL2](https://www.libsdl.org/)

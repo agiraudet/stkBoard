@@ -6,7 +6,7 @@
 /*   By: agiraude <agiraude@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/27 11:16:20 by agiraude          #+#    #+#             */
-/*   Updated: 2022/11/28 10:17:09 by agiraude         ###   ########.fr       */
+/*   Updated: 2022/12/02 08:24:35 by agiraude         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,6 +122,7 @@ int gui(int fd)
 		else if (event.type == SDL_KEYDOWN || event.type == SDL_KEYUP)
 		{
 			int	key = event.key.keysym.sym;
+			/*
 			std::map<int, Key>::iterator	it = keyboard.begin();
 			std::map<int, Key>::iterator	ite = keyboard.end();
 			for (; it != ite; it++)
@@ -129,6 +130,7 @@ int gui(int fd)
 				if (it->first != key)
 					it->second.press(false);
 			}
+			*/
 			if (key == SDLK_q)
 				break;
 			bool	isPressed = event.type == SDL_KEYDOWN ? true : false;

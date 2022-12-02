@@ -1,7 +1,7 @@
 # stkBoard
 minimal synth keyboard using STK/SDL2.
 
-Cannot even play two notes at once.
+Can now even play two notes at once !
 
 Also not tuned at all.
 
